@@ -11,6 +11,6 @@ public class GetInfoService {
 
         String currentTime = Instant.now().toString();
 
-        return new Response("igbokwevictor122@gmail.com", currentTime, "https://github.com/meysdays/HNG12/tree/master/restapi");
+        return new Response("igbokwevictor122@gmail.com", currentTime, "https://github.com/meysdays/SimpleAPI");
     }
 }
