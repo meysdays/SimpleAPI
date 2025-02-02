@@ -10,18 +10,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+//@RequestMapping("/api")
 public class GetInfoController {
 
     @Autowired
     GetInfoService getInfoService;
 
-    @GetMapping("/hello")
-    public String show(){
-        return "hello world!";
-    }
+//    @GetMapping("/hello")
+//    public String show(){
+//        return "hello world!";
+//    }
 
-    @GetMapping("/info")
+    @GetMapping("/")
     public ResponseEntity<Response> getInfo(){
         Response response = getInfoService.stageInfo();
         return new ResponseEntity<>(response, HttpStatus.OK);
