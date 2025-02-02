@@ -16,7 +16,7 @@ Ensure you have the following installed on your system:
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/meysdays/SimpleAPI.git
-cd HNG12
+cd SimpleAPI
 ```
 
 ### 2. Build the Application
